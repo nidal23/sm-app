@@ -73,3 +73,8 @@ mongoose.connect(process.env.MONGO_URL, {
         // Post.insertMany(posts);
     });
 }).catch((err) => console.log(`${err.message} did not connect`));
+
+
+
+
+// mongodb+srv://nidalmwork:3quJpRmrFm9byMo7@cluster0.cczsayt.mongodb.net/test
